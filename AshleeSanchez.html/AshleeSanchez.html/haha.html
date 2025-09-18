@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ashlee Jean Sanchez - Portfolio</title>
+  <style>
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background: linear-gradient(to right, #ff758c, #ff7eb3);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid white;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      margin-bottom: 1rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header h2 {
+      font-weight: normal;
+      font-size: 1.5rem;
+    }
+
+    nav {
+      background-color: #333;
+      padding: 1rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 0.5rem 1rem;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #ff7eb3;
+      border-radius: 5px;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 3rem auto;
+      padding: 0 1rem;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #ff5e78;
+      border-bottom: 2px solid #ff5e78;
+      padding-bottom: 0.5rem;
+    }
+
+    article {
+      background: #fff;
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+      border-left: 5px solid #ff7eb3;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    ul {
+      list-style: disc inside;
+    }
+
+    li {
+      margin: 0.5rem 0;
+    }
+
+    address a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+
+    address a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: #ff758c;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <img src="images/ashlee.jfif" alt="Ashlee Jean Sanchez Profile" class="profile-img" />
+    <h1>ASHLEE JEAN SANCHEZ</h1>
+    <h2>IT STUDENT | Web Developer</h2>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <article>
+      <h3>E-Commerce Website</h3>
+      <p>Built with React and Firebase featuring dynamic product listings, secure login, and a fully responsive mobile design.</p>
+    </article>
+    <article>
+      <h3>Personal Portfolio Website</h3>
+      <p>Developed a responsive single-page portfolio using HTML, CSS, and JavaScript with interactive animations and accessibility-focused design.</p>
+    </article>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About</h2>
+    <p>
+      I’m Ashlee, an IT student passionate about web development and design. 
+      I enjoy creating responsive, user-friendly digital experiences and solving real-world problems with technology. 
+      I’m detail-oriented, curious, and constantly learning to improve my skills while bringing creative ideas to life.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Front-End Development (HTML, CSS, JavaScript, React)</li>
+      <li>Responsive Web Design</li>
+      <li>UI/UX Design Principles</li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Information</h2>
+    <address>
+      <ul>
+        <li>Email: <a href="mailto:ashleejeansanchez@gmail.com">ashleejeansanchez@gmail.com</a></li>
+        <li>Facebook: <a href="https://facebook.com/ashleejean" target="_blank">@ashleejean</a></li>
+        <li>Instagram: <a href="https://instagram.com/ashleejs" target="_blank">@ashhlleeey</a></li>
+        <li>Phone: <a href="tel:+639123456789">+63 912 345 6789</a></li>
+      </ul>
+    </address>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Ashlee Jean Sanchez. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
